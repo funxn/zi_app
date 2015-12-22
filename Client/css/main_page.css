@@ -1,0 +1,58 @@
+@font-face {
+	font-family: "STLibian-SC-Regular";
+    src: url("../font/STLibian-SC-Regular.woff") format("woff");   /*字体选择（有些字体显示不了？）*/
+    font-style: normal;
+    font-weight: normal; 
+	
+}
+
+
+.guide{
+	
+	position: fixed;
+	background-color:#000000 ;
+	width: 0%;
+	height: 0%;
+	top:0;
+	left: 0;
+	filter:alpha(opacity=50); 
+	-moz-opacity:0.5; 
+	opacity:0.5;
+	
+}
+
+#title{
+	position: fixed;
+	font-size: 2.3em;
+    top: 10%; left: 40%;
+}
+#auther{
+	position: fixed;
+	font-size: 1em;
+	 top: 18%; left: 50%;
+}
+#word{
+	white-space: pre;
+	position: fixed;
+	font-family: "STLibian-SC-Regular";
+	font-size: 2em;
+	font-weight: 900;
+    color: #000000;
+    line-height: 2em;
+    letter-spacing: 0.1em;
+
+    top: 25%; left: 35%;
+}
+
+.top{
+	position: fixed;
+	background-color:#000000 ;
+	width: 100%;
+	height: 5%;
+	top:0;
+	left: 0;
+	filter:alpha(opacity=50); 
+	-moz-opacity:0.5; 
+	opacity:0.5;
+	
+}

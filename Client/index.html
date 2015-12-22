@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>字</title>
+    <link rel="stylesheet" href="./css/front_page.css"> 
+    <script type="text/javascript" src="./js/front_page.js"></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/color_hash.js"></script>
+    
+
+</head>
+
+<body>
+<div class="logo">
+	<div onmouseover="mOver(this)" onmouseout="mOut(this)" id="button" class="button"><a href="/main_page.html"><img id="myimg" src="./img/button.png" alt="button"></a></div>
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)" class="route"><a href="./main_page.html"><img id="mouseon" style=display:none; src="img/mouseon.png"></a></div>
+    <img src="./img/logo.png" alt="logo">
+    <div class="word">「文字不可辜负」</div>
+    </div>
+</body>
+<script type="text/javascript">
+    // 与载入顺序有关， 对于页面的背景色的调节要放在这r里才有效（不要放在<head></head>标签里面）
+    var id =  Math.floor(Math.random()*50) + 10;
+    $('body').css('background-color', ch["col0" + id]);
+</script>
+</html>

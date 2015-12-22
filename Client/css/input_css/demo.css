@@ -1,0 +1,34 @@
+
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../font/codropsicons/codropsicons.eot');
+	src:url('../font/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../font/codropsicons/codropsicons.woff') format('woff'),
+		url('../font/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../font/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+body {
+
+	font-weight: 500;
+	font-size: 1.05em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+
+
+
+@media screen and (max-width: 50em) {
+	.codrops-header {
+		padding: 3em 10% 4em;
+	}
+}
+
+@media screen and (max-width: 40em) {
+	.codrops-header h1 {
+		font-size: 2.8em;
+	}
+}
